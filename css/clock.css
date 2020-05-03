@@ -61,13 +61,15 @@ input::placeholder {
   padding-bottom: 20px;
 }
 
-.todostyle {
+.todostyle,
+.js-input {
   font-size: 20px;
   padding: 10px;
   border: none;
   background: transparent;
   border-bottom: white 1px solid;
   outline: none;
+  text-align: center;
 }
 
 .js-toDoList {

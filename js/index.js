@@ -98,9 +98,9 @@
 
 // console.log(`5 + 5 = ${plus}`);
 
-// // html이랑 연결
-// // const title = document.getElementById("title");
-// const title = document.querySelector("#title");
+// html이랑 연결
+const title = document.getElementById("title");
+const title = document.querySelector("#title");
 
 // title.innerHTML = "heeellllllo";
 // console.log(title);

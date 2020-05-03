@@ -36,7 +36,6 @@ function loadName() {
     askForName();
   } else {
     //she is
-    askForName();
     paintGreeting(currentUser);
   }
 }
