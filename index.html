@@ -3,13 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Someting</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/clock.css" />
+    <title>Clock</title>
   </head>
   <body>
-    <h1 id="title" class="btn">
-      This works
-    </h1>
-    <script src="index.js"></script>
+    <div class="js-clock">
+      <h1 class="js-title"></h1>
+    </div>
+
+    <form action="" class="js-form form">
+      <input type="text" placeholder="What is your name?" class="js-input" />
+    </form>
+    <h4 class="js-greetings greetings">hello</h4>
+
+    <form action="" class="js-toDoForm toDoForm">
+      <input
+        type="text"
+        placeholder="오늘 할 일을 추가해보세요!"
+        class="todostyle"
+      />
+    </form>
+    <ul class="js-toDoList"></ul>
+
+    <!-- <form action="" class="js-notice">
+      <input type="text" placeholder="add a notice" class="" />
+    </form>
+    <ul class="js-noticeli"></ul> -->
+
+    <span class="js-weather"></span>
+
+    <script src="js/clock.js"></script>
+    <script src="js/gretting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/notice.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/location.js"></script>
   </body>
 </html>
